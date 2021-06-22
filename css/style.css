@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Benne', serif;
+}
+nav{
+    background-color: #212529;
+    height: 9vh;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+.logo img{
+    width: 40px;
+    margin: 11px 25px;
+}
+nav ul{
+    margin-left: -8px;
+    list-style: none;
+    display: inherit;
+}
+nav ul li{
+    padding-top: 13px;
+}
+nav ul li a{
+    margin: 11px 14px;
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+nav input{
+    height: 6vh;
+    width: 31vh;
+    margin: 6px 0 10px 455px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    font-size: 16px;
+}
+nav button{
+    background-color: #dc3545;
+    color: white;
+    border-radius: .25rem;
+}
+.btn{
+    width: 11vh;
+    height: 6vh;
+    margin: 9px 13px 6px 29px;
+    font-size: 16px;
+}
+.bts{
+    width: 11vh;
+    height: 6vh;
+    margin: 9px 13px 6px 13px;
+    font-size: 16px;
+}
+main{
+    height: calc(100vh - 10vh);
+}
+main .container{
+    background-color: rgb(221, 235, 236);
+    padding-bottom: 80px;
+}
+main .container img{
+    width: 125px;
+    margin: 54px 615px 0 653px;
+}
+main .container h1{
+    margin-left: 600px;
+    font-size: 36px;
+}
+main .container p{
+    font-size: 27px;
+    line-height: 30px;
+    margin: 0 54px;
+    text-align: center;
+}
+main .container .g{
+    font-size: 27px;
+    line-height: 30px;
+    margin: 0 54px;
+    text-align: center;
+}
+main .container .V{
+    margin-top: 12px;
+    margin-left: -10vh;
+}
+main .container .V a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+main .container .V .jim{
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border-radius: 4px;
+    width: 115px;
+    height: 35px;
+}
+main .container .V .tae{
+    background-color: #28a745;
+    border-color: #28a745;
+    border-radius: 4px;
+    width: 160px;
+    height: 35px;
+    margin: 0 16px;
+}
+main .container .V .jung{
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 4px;
+    width: 115px;
+    height: 35px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card .card-item{
+    width: 250px;
+    border: 8px solid rgb(235, 255, 255);
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.card .card-itm{
+    width: 250px;
+    border: 8px solid rgb(235, 255, 255);
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.card .card-item img{
+    width: 200px;
+    margin-left: 24px;
+    margin-top: 20px;
+}
+.card .card-itm img{
+    width: 200px;
+    margin-left: 24px;
+    margin-top: 20px;
+}
+.card .card-item h2{
+    text-align: center;
+}
+.card .card-itm h2{
+    text-align: center;
+}
+.card .card-item p{
+    text-align: center;
+    line-height: 23px;
+}
+.card .card-itm p{
+    text-align: center;
+    line-height: 23px;
+}
+.card .card-item button{
+    background-color: #007bff;
+    border-radius: #007bff;
+    border-radius: 4px;
+    color: white;
+    height: 35px;
+    width: 172px;
+    margin-left: 39px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card .card-itm button{
+    background-color: #007bff;
+    border-radius: #007bff;
+    border-radius: 4px;
+    color: white;
+    height: 35px;
+    width: 172px;
+    margin: 10px 39px;
+}
+footer{
+    margin-top: 200px;
+    /* position: sticky; */
+    background-color: #212529;
+    height: 12vh;
+}
+footer p{
+    height: 8vh;
+    color: white;
+    text-align: center;
+    padding-top: 17px;
+    font-size: 25px;
+}

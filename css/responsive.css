@@ -1,0 +1,58 @@
+@media screen and (max-width : 1000px){
+    nav{
+        flex-direction: column;
+        height: 38vh;
+        align-items: center;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        margin-bottom: -25px;
+    }
+    .logo img{
+        width: 61px;
+    }
+    nav ul{
+        margin-left: 8px;
+        justify-content: center;
+    }
+    nav ul li a{
+        font-size: 24px;
+    }
+    nav input{
+        margin-left: 16px;
+        margin-top: 3px;
+    }
+    main .container{
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main .container h1{
+        margin-left: 0;
+    }
+    main .container img{
+        margin: 54px 615px 0 615px;
+    }
+    .btn{
+        margin-left: 14px;
+        margin-top: -1px;
+    }
+    .bts{
+        margin-top: -2px;
+    }
+    main .container .V{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 10px 0 0 0;
+    }
+    .card{
+        justify-content: flex-start;
+        overflow: scroll;
+    }
+    footer{
+        margin-top: 300px;
+    }
+}
